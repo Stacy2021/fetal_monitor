@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('location');
             $table->integer('charges');
-            $table->string('phonenumber');
+            
             $table->timestamps();
         });
     }
